@@ -1,0 +1,248 @@
+.logomon {
+	width: 75px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	background-color: #fff;
+	min-width: 320px;
+}
+
+nav {
+	display: inline;
+	text-align: center;
+}
+
+img {
+	
+	max-width: 100%;
+	height: auto;
+
+}
+
+section {
+	padding: 50px 0;
+}
+
+a {
+	color: rgb(62, 204, 251);
+	text-decoration: none;
+}
+
+a:hover {
+	color: #555;
+}
+
+/* Header */
+
+.navbar-light .navbar-nav .nav-link {
+	color: #111;
+	font-weight: 500;
+	text-transform: uppercase;
+	
+}
+
+.nav-link {
+	margin-top: 23px;
+}
+
+.navbar-nav .dropdown-menu {
+	right: 0;
+	left: auto;
+}
+
+.navlogo {
+	padding-top: 0.3125rem;
+	padding-bottom: 0.3125rem;
+	font-size: 1.25rem;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.top-menu li a::after {
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #111;
+	height: 1px;
+	transition: all .3s;
+	transform: scale(0);
+}
+
+.top-menu li a:hover::after {
+	transform: scale(1);
+}
+/* Header */
+
+
+
+
+.textcoco {
+	padding-top: 117px;
+	margin-right: 500px;
+	margin-left: 500px;
+	justify-content: space-between;
+	text-align: justify;
+	
+	
+	
+}
+
+.textcoco h1 {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+
+.textcoco h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.textcoco p {
+	letter-spacing: 1px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-size: 23px;
+	font-family: helvetica !important;
+}
+
+
+
+
+
+.textcocoV2 {
+	padding-top: 70px;
+	margin-right: 500px;
+	margin-left: 500px;
+	justify-content: space-between;
+	text-align: justify;
+	
+	
+	
+}
+
+.textcocoV2 h1 {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+
+.textcocoV2 h2 {
+	text-align: center;
+	font-size: 35px;
+}
+
+.textcocoV2 p {
+	letter-spacing: 1px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-size: 23px;
+	font-family: helvetica !important;
+}
+
+.boldik {
+	font-weight: bold;
+}
+
+.ramka {
+	border-style: solid;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.hr-line {
+	margin: 25px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 3px solid #000000;
+}
+
+h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.redboom {
+	border-radius: 25px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.popa {
+	margin-bottom: 40px;
+}
+
+.lipoco {
+	
+	letter-spacing: 1px;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-size: 20px;
+	font-family: helvetica !important;
+}
+
+.liok {
+	margin-bottom: 30px;
+}
+
+.liak {
+	margin-bottom: 30px;
+}
+
+h3 {
+	margin-top: 70px;
+}
+
+h4 {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.eliza {
+	margin-top: 15px;
+	margin-bottom: 70px;
+	border-radius: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* КАРУСЕЛЬ */
+
+.my-carousel {
+	margin-top: 7px;
+	padding: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 55px;
+}
+
+.my-carousel .carousel-item {
+	display: flex;
+	max-height: 700px;
+	
+}
+
+.my-carousel .carousel-item img {
+	object-fit: cover;
+	border-radius: 55px;
+}
+
+
